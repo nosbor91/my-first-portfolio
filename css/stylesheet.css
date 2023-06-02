@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Lobster&family=Open+Sans:wght@300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    background-image: linear-gradient(120deg, #000000d8, #181717da, #1a1919d8,#464545d8,#000000d8, #181717da, #1a1919d8);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 120px;
+    /*border: 1px solid white;*/
+    padding-top: 20px;
+    box-shadow: 10px 10px 10px black;
+}
+.logo{
+    flex: 50%;
+    
+}
+.nav-bar{
+    flex: 50%;   
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: #B97A4C;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+}
+.nav-bar a:hover{
+    color: #805333;
+    border-top: 4px solid #B97A4C;
+}
+#btn-nav-bar{
+    background: linear-gradient(120deg, #000000d8, #181717da, #1a1919d8,#464545d8,#000000d8, #181717da, #1a1919d8);
+    border-radius: 20px;
+    padding: 20px 30px;
+    color: #805333;
+}
+#btn-nav-bar:hover{
+    border: none;
+    color: #B97A4C;
+}
+.middle-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+.middle-page-img{
+    flex:50%;
+    max-width: 100%;
+    padding: 176px 176px;
+    padding-top: 20px;
+    box-shadow: 20px 20px 10px #805333 ;
+
+}
+.middle-page-img-img{
+    position: relative;
+    top: 85px;
+    width: 234px;
+}
+.middle-page-text{
+    flex: 50%;
+    text-align: center;
+}
+.section{
+    display: inline-block;
+    margin-top: 80px;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    padding: 5%;
+
+}
+.section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0%;
+    font-weight: bold;
+    color: #805333;
+}
+.services{
+    display: inline-block;
+    margin-top: 5%;
+}
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #B97A4C;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.hidden-text{
+    display: none;
+}
+.card:hover{
+    background: #B97A4C;
+}
+.card:hover img{
+    display: none;
+}
+.card:hover .card-text{
+    display: none;
+}
+.card:hover .hidden-text{
+    display: block;
+}
+.end-page{
+    border-top: 4px solid #805333;
+    height: 400px;
+    margin-top: 100px;
+    text-align: center;
+}
+.end-page h1{
+    padding-top: 100px;
+}
+.end-page a img{
+    width: 80px;
+    justify-content: space-between;
+    padding: 17px;
+}
