@@ -5,6 +5,29 @@
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
 }
+@media screen and (max-width: 1019px) {
+   .container{
+        flex-direction: column;
+        height: 240px
+    }
+    .logo{
+        margin: 0%;
+        text-align: center;
+    }
+    .card{
+        width: 100%;
+    }
+    .middle-page{
+        flex-direction: column;
+    }
+    .middle-page-img{
+        margin-top: 100px;
+        padding: 0%;
+    }
+    .middle-page-text{
+        margin-top: 50px;
+    }
+}
 body{
     background-image: linear-gradient(120deg, #000000d8, #181717da, #1a1919d8,#464545d8,#000000d8, #181717da, #1a1919d8);
 }
@@ -12,9 +35,9 @@ body{
     display: flex;
     justify-content: center;
     text-align: center;
-    height: 120px;
+    height: 240px;
     /*border: 1px solid white;*/
-    padding-top: 20px;
+    padding-top: 60px;
     box-shadow: 10px 10px 10px black;
 }
 .logo{
