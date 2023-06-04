@@ -5,29 +5,6 @@
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
 }
-@media screen and (max-width: 1019px) {
-   .container{
-        flex-direction: column;
-        height: 240px
-    }
-    .logo{
-        margin: 0%;
-        text-align: center;
-    }
-    .card{
-        width: 100%;
-    }
-    .middle-page{
-        flex-direction: column;
-    }
-    .middle-page-img{
-        margin-top: 100px;
-        padding: 0%;
-    }
-    .middle-page-text{
-        margin-top: 50px;
-    }
-}
 body{
     background-image: linear-gradient(120deg, #000000d8, #181717da, #1a1919d8,#464545d8,#000000d8, #181717da, #1a1919d8);
 }
@@ -35,14 +12,20 @@ body{
     display: flex;
     justify-content: center;
     text-align: center;
-    height: 240px;
+    height: 120px;
     /*border: 1px solid white;*/
-    padding-top: 60px;
+    padding-top: 20px;
     box-shadow: 10px 10px 10px black;
 }
-.logo{
+.logo {
     flex: 50%;
-    
+    margin-top: 20px;
+}
+.logo a{
+    color: #B97A4C;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: bold;
 }
 .nav-bar{
     flex: 50%;   
@@ -71,23 +54,8 @@ body{
     color: #B97A4C;
 }
 .middle-page{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 400px;
-}
-.middle-page-img{
-    flex:50%;
-    max-width: 100%;
-    padding: 176px 176px;
-    padding-top: 20px;
-    box-shadow: 20px 20px 10px #805333 ;
 
-}
-.middle-page-img-img{
-    position: relative;
-    top: 85px;
-    width: 234px;
 }
 .middle-page-text{
     flex: 50%;
@@ -126,21 +94,11 @@ body{
     display: none;
 }
 .card:hover{
-    background: #B97A4C;
+    background: #805333;
 }
-.card:hover img{
-    display: none;
-}
-.card:hover .card-text{
-    display: none;
-}
-.card:hover .hidden-text{
-    display: block;
-}
+
 .end-page{
-    border-top: 4px solid #805333;
     height: 400px;
-    margin-top: 100px;
     text-align: center;
 }
 .end-page h1{
@@ -150,4 +108,8 @@ body{
     width: 80px;
     justify-content: space-between;
     padding: 17px;
+}
+.end-page p{
+    max-width: 50%;
+    margin-left: 25%;
 }
